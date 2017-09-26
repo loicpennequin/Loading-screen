@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#fff, #aaa);
+    min-height: 100vh;
+}
+
+#header{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bg{
+  position: absolute;
+  top: -40px;
+  left: 0;
+  -webkit-mask-image: linear-gradient(transparent, black);
+  opacity: 0.8;
+  width: 100vw;
+}
+
+canvas {
+
+    /*filter: blur(3px) contrast(250%);*/
+    /*border: solid black 2px;*/
+    z-index: 1;
+}
