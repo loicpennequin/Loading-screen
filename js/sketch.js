@@ -2,7 +2,7 @@ let particles = [],
     myFont;
 
 function preload() {
-  myFont = loadFont('http://localhost/loadingscreen/Days.otf');
+  myFont = loadFont('/Days.otf');
 }
 
 function setup() {
